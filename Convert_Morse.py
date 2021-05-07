@@ -41,14 +41,15 @@ def convert_morse (code):
      code = code.replace('Z', '--..')
 
      return code
-
-new_code = 'H E L L O  W O R L D'
-print(f"Initial code: {new_code} ") #will show the original code before conversion
+print("Number and/or Caps (ABC)")
+new_code= input("Enter your code:  ") #takes input from a user
+#NOTE: the input must be number and/or Capital letter(ABC)
 
 morse = convert_morse(new_code)
 print(f"Morse Code: {morse} ") #will print code converted to morse
 
 
+#This NOT part of the code
 Output:
   
 Initial code: H E L L O  W O R L D 
@@ -56,5 +57,10 @@ Morse Code: .... . .-.. .-.. ---  .-- --- .-. .-.. -..
   
 Output : 
   
-Initial code: 2 4 0 7 
-Morse Code: ..--- ....- ----- --... 
+Enter your code:  2332 BAKER STREET
+Morse Code: ..---...--...--..--- -....--.-..-. ...-.-...- 
+     
+Output :
+
+Enter your code:  2 3 5 A B
+Morse Code: ..--- ...-- ..... .- -... 
