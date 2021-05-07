@@ -1,2 +1,2 @@
-# 1st-Project
-This will be my first project and i haven't decided what it'll be so let's see
+Morse Code Converter
+The purpose of this code is to convert numbers into a morse code
